@@ -1,0 +1,39 @@
+.highlight {
+    background-color: antiquewhite;
+}
+
+.sans {
+    font-family: Tahoma, sans-serif;
+}
+
+.cursive {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.monospace {
+    font-family: 'Courier New', monospace;
+}
+
+.padding {
+    padding-left: 2rem;
+}
+
+.margin {
+    margin-left: 3rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.relative {
+    position: aboslute;
+}
+
+.textwhite{
+    color: #ffffff;
+}
+
+.shadow {
+    box-shadow: 5px 10px;
+}
