@@ -10,7 +10,7 @@ const Logincomp = () => {
   const [RetailerPassword , setRetailerPassword] = useState("")
   return (
     <React.Fragment>
-            <div class="container px-4 py-2 mx-auto">
+            <div class="container px-4 py-2 mx-auto ">
                 <div class="row justify-content-center px-1 mb-1">
                     
                 </div>
@@ -25,12 +25,12 @@ const Logincomp = () => {
 
                                     <div class="form-group">
                                         <label class="form-control-label text-muted">Username</label>
-                                        <input type="text" id="email" name="email" placeholder="Phone no or email id" class="form-control" value={customerUserame} onChange={(e) => {setCustomerUsername(e.target.value)}}/>
+                                        <input type="text" id="cemail" name="email" placeholder="Phone no or email id" class="form-control" value={customerUserame} onChange={(e) => {setCustomerUsername(e.target.value)}}/>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="form-control-label text-muted">Password</label>
-                                        <input type="password" id="psw" name="psw" placeholder="Password" class="form-control" value={customerPassword} onChange={(e) => {setCustomerPassword(e.target.value)}} />
+                                        <input type="password" id="cpsw" name="psw" placeholder="Password" class="form-control" value={customerPassword} onChange={(e) => {setCustomerPassword(e.target.value)}} />
                                     </div>
 
                                     <div class="row justify-content-center my-3 px-3">
@@ -56,12 +56,12 @@ const Logincomp = () => {
 
                                     <div class="form-group">
                                         <label class="form-control-label text-muted">Username</label>
-                                        <input type="text" id="email" name="email" placeholder="Phone no or email id" class="form-control" value={retailerUserame} onChange={(e) => {setRetailerUsername(e.target.value)}} />
+                                        <input type="text" id="remail" name="email" placeholder="Phone no or email id" class="form-control" value={retailerUserame} onChange={(e) => {setRetailerUsername(e.target.value)}} />
                                     </div>
 
                                     <div class="form-group">
                                         <label class="form-control-label text-muted">Password</label>
-                                        <input type="password" id="psw" name="psw" placeholder="Password" class="form-control" value={RetailerPassword} onChange={(e) => {setRetailerPassword(e.target.value)}}/>
+                                        <input type="password" id="rpsw" name="psw" placeholder="Password" class="form-control" value={RetailerPassword} onChange={(e) => {setRetailerPassword(e.target.value)}}/>
                                     </div>
 
                                     <div class="row justify-content-center my-3 px-3">
